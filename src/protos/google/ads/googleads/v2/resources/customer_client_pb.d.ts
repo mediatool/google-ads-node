@@ -24,6 +24,31 @@ export class CustomerClient extends jspb.Message {
   getLevel(): google_protobuf_wrappers_pb.Int64Value | undefined;
   setLevel(value?: google_protobuf_wrappers_pb.Int64Value): void;
 
+  hasTimezone(): boolean;
+  clearTimezone(): void;
+  getTimezone(): google_protobuf_wrappers_pb.StringValue | undefined;
+  setTimezone(value?: google_protobuf_wrappers_pb.StringValue): void;
+
+  hasTestAccount(): boolean;
+  clearTestAccount(): void;
+  getTestAccount(): google_protobuf_wrappers_pb.BoolValue | undefined;
+  setTestAccount(value?: google_protobuf_wrappers_pb.BoolValue): void;
+
+  hasManager(): boolean;
+  clearManager(): void;
+  getManager(): google_protobuf_wrappers_pb.BoolValue | undefined;
+  setManager(value?: google_protobuf_wrappers_pb.BoolValue): void;
+
+  hasDescriptiveName(): boolean;
+  clearDescriptiveName(): void;
+  getDescriptiveName(): google_protobuf_wrappers_pb.StringValue | undefined;
+  setDescriptiveName(value?: google_protobuf_wrappers_pb.StringValue): void;
+
+  hasId(): boolean;
+  clearId(): void;
+  getId(): google_protobuf_wrappers_pb.Int64Value | undefined;
+  setId(value?: google_protobuf_wrappers_pb.Int64Value): void;
+
   serializeBinary(): Uint8Array;
   toObject(includeInstance?: boolean): CustomerClient.AsObject;
   static toObject(includeInstance: boolean, msg: CustomerClient): CustomerClient.AsObject;
@@ -40,6 +65,11 @@ export namespace CustomerClient {
     clientCustomer?: google_protobuf_wrappers_pb.StringValue.AsObject,
     hidden?: google_protobuf_wrappers_pb.BoolValue.AsObject,
     level?: google_protobuf_wrappers_pb.Int64Value.AsObject,
+    timezone?: google_protobuf_wrappers_pb.StringValue.AsObject,
+    testAccount?: google_protobuf_wrappers_pb.BoolValue.AsObject,
+    manager?: google_protobuf_wrappers_pb.BoolValue.AsObject,
+    descriptiveName?: google_protobuf_wrappers_pb.StringValue.AsObject,
+    id?: google_protobuf_wrappers_pb.Int64Value.AsObject,
   }
 }
 
