@@ -1,6 +1,8 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### [1.13.10](https://github.com/mediatool/google-ads-node/compare/v1.13.8...v1.13.10) (2020-09-04)
 
 <a name="1.13.8"></a>
 ## [1.13.8](https://github.com/opteo/google-ads-node/compare/v1.13.7...v1.13.8) (2019-09-30)
